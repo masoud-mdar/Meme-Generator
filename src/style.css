@@ -1,0 +1,139 @@
+body{
+    background: beige;
+    margin: 0;
+}
+.nav-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: auto;
+    background: beige;
+    color: rgba(0, 0, 0, 0.616);
+    font-family: monospace;
+}
+.nav-title{
+    margin-left: 15px;
+}
+.nav-link-wrapper{
+    margin-right: 25px;
+    font-family: fantasy;
+}
+  
+.nav-link-wrapper a{
+    margin-right: 25px;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.616);
+    border-bottom: 1px solid transparent;
+    font-size: large;
+    transition: 300ms;
+}
+  
+a:hover{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.616);
+    font-size: larger;
+    color: rgba(0, 0, 0, 0.795);
+}
+  
+.leaf-wrapper{
+    display: flex;
+    justify-content: space-around;
+}
+  
+.leaf{
+    width: 25px;
+    height: 25px;
+    border-radius: 50% 0;
+    margin: 10px;
+    transition: 250ms;
+}
+.one{
+    background: #1A4341;
+}
+.two{
+    background: #998235;
+}
+.three{
+    background: #F3AC3C;
+}
+.leaf:hover{
+    background: beige;
+}
+.position-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meme-wrapper{
+    position: relative;
+    text-align: center;
+}
+.topText{
+    position: absolute;
+    text-align: center;
+}
+.bottomText{
+    position: absolute;
+    text-align: center;
+}
+h2{
+    color: rgb(243, 245, 220);
+    font-family: fantasy;
+    font-size: 32px;
+}
+img{
+    width: 25%;
+    height: 25%;
+}
+  
+.foot-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    height: 50px;
+    background: beige;
+    color: rgba(0, 0, 0, 0.616);
+    font-family: monospace;
+}
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 25px;
+}
+.form input{
+    border: 3px solid rgba(0, 0, 0, 0.616);
+    border-radius: 5px;
+    font-family: monospace;
+    margin: 15px;
+    height: 25px;
+}
+.form input:focus{
+    outline: none;
+}
+button{
+    padding: 10px;
+    margin: 10px;
+    background: none;
+    cursor: pointer;
+    font-family: monospace;
+    border-radius: 3px;
+    border: 1px solid rgba(0, 0, 0, 0.616);
+    transition: 250ms;
+}
+button:hover{
+    background: whitesmoke;
+}
+button:focus{
+    outline: none;
+}
+.position-changer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.selector{
+    display: grid;
+    grid-template-columns: 1fr;
+}
